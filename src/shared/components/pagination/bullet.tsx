@@ -3,7 +3,6 @@ import React from "react";
 import { cn } from "../../lib/utils";
 
 interface Props {
-  className?: string;
   activeSlide: number;
   i: number;
 
@@ -11,7 +10,6 @@ interface Props {
 }
 
 export const Bullet: React.FC<Props> = ({
-  className,
   activeSlide,
 
   i,

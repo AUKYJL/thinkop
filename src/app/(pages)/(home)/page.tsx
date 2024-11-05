@@ -1,6 +1,6 @@
 import { Form } from "@/shared/components/form/form";
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <div className="">
       <Form />

@@ -5,14 +5,12 @@ import { FULLFILLED_PAGES } from "@/shared/types/consts";
 import { slidesStore } from "../../store/sliderStore";
 
 interface Props {
-  className?: string;
   slideIndex: number;
   isValid: boolean;
   children?: React.ReactNode;
 }
 
 export const FormWrapper: React.FC<Props> = ({
-  className,
   slideIndex,
   isValid,
   children,

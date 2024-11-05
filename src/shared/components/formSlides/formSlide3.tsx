@@ -9,11 +9,7 @@ import FormSelect from "../../ui/formSelect";
 import { FormTextArea } from "../../ui/formTextArea";
 import { FormWrapper } from "../form/formWrapper";
 
-interface Props {
-  className?: string;
-}
-
-export const FormSlide3: React.FC<Props> = ({ className }) => {
+export const FormSlide3: React.FC = () => {
   const { countries } = useCountries();
   const { register, formState, watch, reset, trigger } =
     useForm<IFormOptionsPage1>({

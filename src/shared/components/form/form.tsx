@@ -21,11 +21,7 @@ import { BottomSlider } from "./bottomSlider";
 
 register();
 
-interface Props {
-  className?: string;
-}
-
-export const Form: React.FC<Props> = ({ className }) => {
+export const Form: React.FC = () => {
   const [swiper, setSwiper] = useState<SwiperType | null>(null);
   const { setFullfilledPages } = slidesStore((state) => state);
   const setPagesData = (sw: SwiperType) => {
